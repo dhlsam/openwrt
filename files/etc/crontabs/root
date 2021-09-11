@@ -1,0 +1,4 @@
+0 6 * * * sh /etc/smartdns/update-china-list.sh
+1 1 * * * sh /usr/share/jd-dailybonus/newapp.sh -w
+1 23 * * * sh /usr/share/jd-dailybonus/newapp.sh -u
+00 */4 * * * sync && echo 3 > /proc/sys/vm/drop_caches #rebootschedule
